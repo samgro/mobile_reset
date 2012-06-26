@@ -1,0 +1,25 @@
+// Disable shadow effects in inputs
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
+// Disable webkit tap-highlighting on non-links
+body {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+}
+
+// Enable webkit tap-highlighting on links and inputs
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: #999;
+  tap-highlight-color: #999;
+}
+
+// Add this class to any links that are overridden by Javascript
+// In jQuery: $('a[href="#"]').addClass('no-touch-callout');
+.no-touch-callout {
+  -webkit-touch-callout: none;
+}
