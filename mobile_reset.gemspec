@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.1"
-  s.date = "2012-06-26"
+  s.version = "0.1.1"
+  s.date = "2012-07-23"
 
   # Gem Details
   s.name = "mobile_reset"
