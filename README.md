@@ -16,6 +16,14 @@ At the top of your main SCSS file, add the following:
 
     @import 'mobile_reset';
 
+In your compass config file:
+
+    require 'mobile_reset'
+
+From the command line:
+
+    compass install 'mobile_reset'
+
 If you're using jQuery, you should add the following inside your main $(document.ready) block:
 
     $('a[href="#"]').addClass('no-touch-callout');
