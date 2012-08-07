@@ -10,7 +10,7 @@ From the command line:
 
 Or, from your project's Gemfile:
 
-    gem 'mobile_reset'
+    gem 'mobile_reset', '~> 0.1.1'
 
 At the top of your main SCSS file, add the following:
 
@@ -22,8 +22,10 @@ In your compass config file:
 
 From the command line:
 
-    compass install 'mobile_reset'
+    compass install mobile_reset
 
-If you're using jQuery, you should add the following inside your main $(document.ready) block:
+If you're using jQuery, you can add the following to automatically disable the long tap touch callout dialog in mobile safari on all links with `href='#'`:
 
-    $('a[href="#"]').addClass('no-touch-callout');
+    $(window).load(function() {
+      $('a[href="#"]').addClass('no-touch-callout');
+    }

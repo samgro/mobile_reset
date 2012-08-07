@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary = %q{a compass extension for resetting mobile specific styles}
   s.description = %q{a compass extension for resetting mobile specific styles}
   s.email = "sam.grossberg@gmail.com"
-  s.homepage = "http://www.samgrossberg.com/"
+  s.homepage = "http://www.github.com/samgro/mobile_reset"
 
   # Gem Files
   s.files = %w(README.md)
